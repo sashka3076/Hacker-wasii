@@ -1,0 +1,23 @@
+pkg update-y
+pkg upgrade-y
+pkg install git
+echo '
+==================================
+|.  ✓Cloning into Hacker-wasii.  |
+==================================
+' |lolcat
+git clone https://github.com/evildevill/Hacker-wasii.git
+cd Hacker-wasii
+chmod +x *
+echo '
+==================================
+|.  ✓Make sure you Have a good.  |
+============Internet==============
+     |•It will take some time•|
+     |• Be patience✓•         |
+==================================
+' |lolcat
+echo '
+Installing....../
+' |lolcat
+./install.sh
